@@ -33,6 +33,7 @@ body {
     color: crimson;
     font-family:cursive;
     font-size: 40px;
+    display: block
     text-align: center;
 
 }
