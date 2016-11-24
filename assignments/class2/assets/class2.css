@@ -85,9 +85,9 @@ aside div{
     background-color: fuchsia;
     border: 2px dotted black;
     text-align: center;
-    margin:auto;
+    margin: 15px  auto;
     color: aliceblue;
-    margin: 15px;
+
     font-size: 75px;
 
 }
