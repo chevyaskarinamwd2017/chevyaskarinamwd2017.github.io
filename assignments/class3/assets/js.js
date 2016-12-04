@@ -2,7 +2,7 @@ $(function(){
 
     var myFooter = $("#fade");
 
-    myFooter.on("mouseenter", function(){
+    $("footer").on("mouseover", function(){
         myFooter.fadeIn();
         }).on("mouseleave", function(){
         myFooter.fadeOut();

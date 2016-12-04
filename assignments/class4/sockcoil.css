@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav1{
+    height: 35px;
+    background: #666666;
+}
+
+header{
+    height: 91px;
+    background: #ffffff;
+}
+
+.nav2{
+    height: 48px;
+    background: #E895A2;
+}
+
+main{
+    height: 553px;
+    background: #ffffff;
+
+}
+
+aside{
+    width: 154px;
+    height: 241px;
+    background: #ffffff;
+    border: solid 10px #E895A2;
+
+    margin: 111px 0 0 39px;
+    float: left;
+
+}
+
+section{
+    width: 196px;
+    height: 415px;
+    background: #c4c4c4;
+    position: relative;
+    top: 111px;
+    float: left;
+    margin: 0 0 0 68px;
+
+
+}
+
+footer{
+    height: 297px;
+    background: #999999;
+    clear: both;
+}
