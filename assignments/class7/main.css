@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#circle{
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background: hsl(0,50%,50%);
+    margin: auto;
+    position: relative;
+}
+
+#circle::after{
+    content:attr(data-color);
+    display: none;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    color: hsla(0,50%,10%, .5);
+    margin: auto;
+    position: absolute;
+    top:170px;
+    left: 90px;
+    font-size: 35px;
+
+
+
+}
+
+#circle:hover::after{
+    display: block;
+
+}
+
+input{
+    display:block;
+    margin: 50px auto;
+    width: 350px;
+}
+
+label{
+    margin: auto;
+}
+
+
+
+
