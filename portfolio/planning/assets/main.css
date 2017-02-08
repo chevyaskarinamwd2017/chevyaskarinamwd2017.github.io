@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'modernpics';
-    src: url('modernpics.otf');
+    font-family: 'pix';
+    src: url('DavysDingbats.ttf');
     font-weight: normal;
     font-style: normal;
 
@@ -37,28 +37,67 @@ h2{
 }
 
 .glyphs{
-    font-family: "modernpics";
+    font-family: "pix";
     font-size: 1.5em;
 
 }
 .texture{
     height: 100px;
     padding: 15px;
-    background-image: linear-gradient(transparent, rgba(0,0,0,.2)), url(noise.png);
+    background-image: linear-gradient(transparent, #dddddd);
 }
 
-.puopu {
-  font-family: Droid Serif, sans-serif;
+.tnr {
+  font-family: "Times New Roman" Serif, sans-serif;
  font-size: 1.8em;
 }
 
-.puopu-r1 {
+.tnr-large {
   font-weight: 400;
   text-transform: uppercase;
+  line-height: 1.5em;
 }
 
-.puopu-small {
+.tnr-small {
   font-size: .75em;
   font-weight: 300;
   font-style: italic;
+  line-height: 1em;
+}
+
+.example1 {
+    height: 150px;
+    width: 150px;
+    background: #123456;
+    border: 10px solid #654321;
+    padding: 30px;
+    margin: 30px;
+    font-family: "times new roman";
+    color: #dddddd;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+.example2 {
+    height: 100px;
+    width: 100%;
+    background: rgba(18, 52, 86, 0.65);
+
+}
+
+.example2::after {
+    content: 'some examples';
+    display: block;
+    height: 300px;
+    width: 100px;
+    position: relative;
+    top: 0;
+    font-family: "times new roman";
+    color: #dddddd;
+    font-size: 2em;
+    line-height: 1.5em;
+    padding: 30px;
+    margin: 30px;
+    background-image: linear-gradient(rgba(101, 67, 33, .65), transparent)
 }
