@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'modernpics';
+    src: url('modernpics.otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-size: 1em;
+    line-height: 1.4em;
+}
+h2{
+    margin-top: 50px;
+}
+.colors li{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.colors li:nth-child(1){
+    background-color: #dddddd;
+}
+
+.colors li:nth-child(2){
+    background-color: #123456;
+}
+.colors li:nth-child(3){
+    background-color: #654321;
+}
+.colors li:nth-child(4){
+    background-color: #abcdef;
+}
+.colors li:nth-child(5){
+    background-color: #fedcba;
+}
+
+.glyphs{
+    font-family: "modernpics";
+    font-size: 1.5em;
+
+}
+.texture{
+    height: 100px;
+    padding: 15px;
+    background-image: linear-gradient(transparent, rgba(0,0,0,.2)), url(noise.png);
+}
+
+.puopu {
+  font-family: Droid Serif, sans-serif;
+ font-size: 1.8em;
+}
+
+.puopu-r1 {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.puopu-small {
+  font-size: .75em;
+  font-weight: 300;
+  font-style: italic;
+}
