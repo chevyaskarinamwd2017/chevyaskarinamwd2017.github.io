@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'pix';
+    src: url('DavysDingbats.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-size: 1em;
+    line-height: 1.4em;
+}
+h2{
+    margin-top: 50px;
+}
+.colors li{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.colors li:nth-child(1){
+    background-color: #dddddd;
+}
+
+.colors li:nth-child(2){
+    background-color: #123456;
+}
+.colors li:nth-child(3){
+    background-color: #654321;
+}
+
+.glyphs{
+    font-family: "pix";
+    font-size: 1.5em;
+
+}
+.texture{
+    height: 100px;
+    padding: 15px;
+    background-image: linear-gradient(transparent, #dddddd);
+}
+
+.tnr {
+  font-family: "Times New Roman" Serif, sans-serif;
+ font-size: 1.8em;
+}
+
+.tnr-large {
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.5em;
+}
+
+.tnr-small {
+  font-size: .75em;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1em;
+}
+
+.example1 {
+    height: 150px;
+    width: 150px;
+    background: #123456;
+    border: 10px solid #654321;
+    padding: 30px;
+    margin: 30px;
+    font-family: "times new roman";
+    color: #dddddd;
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+.example2 {
+    height: 100px;
+    width: 100%;
+    background: rgba(18, 52, 86, 0.65);
+
+}
+
+.example2::after {
+    content: 'some examples';
+    display: block;
+    height: 300px;
+    width: 100px;
+    position: relative;
+    top: 0;
+    font-family: "times new roman";
+    color: #dddddd;
+    font-size: 2em;
+    line-height: 1.5em;
+    padding: 30px;
+    margin: 30px;
+    background-image: linear-gradient(rgba(101, 67, 33, .65), transparent)
+}
